@@ -1,0 +1,69 @@
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.navbar {
+  opacity: 0.9;
+  font-size: 150%;
+
+}
+
+.navbar-brand {
+  font-size: inherit;
+}
+
+#landing {
+  height: 100vh;
+  background-image: url("../img/lake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-color: teal;
+}
+
+#face {
+  width: 275px;
+  border: 4px solid black;
+}
+
+#pad {
+  margin-top: 30vh;
+}
+#landing {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#intro {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#resume {
+  background-color: teal;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#contact {
+  background-color: #1a1f28;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size:
+}
+
+.tiny {
+  font-size: 100%;
+}
