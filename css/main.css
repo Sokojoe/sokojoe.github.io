@@ -10,14 +10,13 @@ p {
 .navbar {
   opacity: 0.9;
   font-size: 150%;
-
 }
 
 .navbar-brand {
   font-size: inherit;
 }
 
-#landing {
+#top {
   height: 100vh;
   background-image: url("../img/lake.jpg");
   background-repeat: no-repeat;
@@ -34,7 +33,8 @@ p {
 #pad {
   margin-top: 30vh;
 }
-#landing {
+
+#top {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -45,10 +45,25 @@ p {
 }
 
 #resume {
-  background-color: teal;
+  background-color:#08224c;
   color: white;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.resumebtn {
+  font-size: 1.5em;
+  background-color: inherit;
+  color: inherit;
+  padding: 10px;
+  border: 4px solid white;
+  border-radius: 5%;
+}
+
+a.resumebtn:hover {
+  background-color: white;
+  color: #08224c;
+  cursor:pointer;
 }
 
 #projects {
@@ -58,10 +73,17 @@ p {
 
 #contact {
   background-color: #1a1f28;
-  color: white;
   padding-top: 50px;
   padding-bottom: 50px;
-  font-size:
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .tiny {
