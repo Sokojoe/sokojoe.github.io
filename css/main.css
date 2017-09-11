@@ -8,13 +8,27 @@ p {
 }
 
 .navbar {
-  opacity: 0.9;
-  font-size: 150%;
+  opacity: 0.80;
+  font-size: 125%;
+  border: 0px;
 }
 
-.navbar-brand {
+#custom-navbar .navbar-nav>li>a{
+  color: white;
+  font-weight: normal;
+}
+
+#custom-navbar .navbar-brand{
+  color: white;
+  font-weight: normal;
   font-size: inherit;
 }
+
+#custom-navbar .navbar-nav>li>a:hover{
+  color: lightblue;
+  text-decoration: underline;
+}
+
 
 #top {
   height: 100vh;
@@ -27,7 +41,7 @@ p {
 
 #face {
   width: 275px;
-  border: 4px solid black;
+  border: 1px solid black;
 }
 
 #pad {
